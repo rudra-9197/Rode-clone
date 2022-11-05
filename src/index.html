@@ -7,28 +7,29 @@
     <link href="../dist/output.css" rel="stylesheet" />
     <script>
       function myFunction() {
-      
-
-        if(document.getElementById("languageDropdownLinkMobile").style.display=="hidden"){
-
-            document.getElementById("languageDropdownLinkMobile").style.display="block";
+        if (
+          document.getElementById("languageDropdownLinkMobile").style.display ==
+          "hidden"
+        ) {
+          document.getElementById("languageDropdownLinkMobile").style.display =
+            "block";
         }
         // if(dropdown.style.display != "hidden"){
 
-    //    dropdown.style.display == "hidden"
-    //      }
-
-
+        //    dropdown.style.display == "hidden"
+        //      }
       }
     </script>
 
     <title>Document</title>
   </head>
-  <body>
-    <div class="flex flex-row justify-around p-4">
+  <body class="w-screen">
+    <!-- 
+Icon section -->
 
-<!-- map-element         -->
-      <div  >
+    <div class="flex flex-row justify-around py-4 w-full">
+      <!-- map-element         -->
+      <div>
         <div id="dropdown" onclick="myFunction()" class="group">
           <svg
             width="13"
@@ -108,23 +109,250 @@
 
       <!-- Icon -->
 
-     <div class="flex">
-        <svg data-v-49b37e2d="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 219.5 75" xml:space="preserve" height="16px" class="rodexLogo hasHoverEffect"><g data-v-49b37e2d="" class=""><polygon data-v-49b37e2d="" points="190.7,37.5 162,75 136.4,75 165.2,37.5 136.4,0 162,0 190.7,37.5" class="fillColor1"></polygon> <polygon data-v-49b37e2d="" points="194.9,32.1 219.5,0 193.9,0 182.1,15.4 194.9,32.1" class="fillColor1"></polygon> <polygon data-v-49b37e2d="" points="182.1,59.6 193.9,75 219.5,75 194.9,42.9 182.1,59.6" class="fillColor1"></polygon> <path data-v-49b37e2d="" d="M62.4,32.8c0.2,1.8,0.3,3.5,0.3,4.7c0,4.5-0.8,14.9-8.3,14.9c-3.4,0-5.4-2.2-6.6-5L62.4,32.8L62.4,32.8z
+      <div class="flex">
+        <svg
+          data-v-49b37e2d=""
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 219.5 75"
+          xml:space="preserve"
+          height="16px"
+          class="rodexLogo hasHoverEffect"
+        >
+          <g data-v-49b37e2d="" class="">
+            <polygon
+              data-v-49b37e2d=""
+              points="190.7,37.5 162,75 136.4,75 165.2,37.5 136.4,0 162,0 190.7,37.5"
+              class="fillColor1"
+            ></polygon>
+            <polygon
+              data-v-49b37e2d=""
+              points="194.9,32.1 219.5,0 193.9,0 182.1,15.4 194.9,32.1"
+              class="fillColor1"
+            ></polygon>
+            <polygon
+              data-v-49b37e2d=""
+              points="182.1,59.6 193.9,75 219.5,75 194.9,42.9 182.1,59.6"
+              class="fillColor1"
+            ></polygon>
+            <path
+              data-v-49b37e2d=""
+              d="M62.4,32.8c0.2,1.8,0.3,3.5,0.3,4.7c0,4.5-0.8,14.9-8.3,14.9c-3.4,0-5.4-2.2-6.6-5L62.4,32.8L62.4,32.8z
             M54.4,22.6c3.5,0,5.5,2.3,6.7,5.2L46.4,42.4c-0.3-1.9-0.3-3.6-0.3-4.9C46.1,33,46.9,22.6,54.4,22.6L54.4,22.6z M73.9,21.3
             l-3.1-3.1L66.9,22c-3.4-2.7-7.7-4.3-12.5-4.3c-11.2,0-19.9,8.7-19.9,19.8c0,4.8,1.6,9.1,4.4,12.5L35,53.8l3.1,3.1l3.8-3.8
             c3.4,2.6,7.6,4.1,12.4,4.1c11.2,0,19.9-8.7,19.9-19.8c0-4.7-1.6-9-4.3-12.4L73.9,21.3L73.9,21.3z M103,36.7c0,7-2.8,14.4-10.6,14.4
             h-3.8V23.9H92C99.6,23.9,103,30.3,103,36.7L103,36.7z M94.5,18.7H77.8v37.5h18.3c11.2,0,18.5-7.1,18.5-18.1
             C114.6,26.9,106.1,18.7,94.5,18.7L94.5,18.7z M142.6,50.3v6h-24.9V18.7h25v6h-13.7V34h12.3v6h-12.3v10.3H142.6L142.6,50.3z
             M11.3,24.2h3.3c3.6,0,6.1,2.5,6.1,6.2c0,5.3-3,6.3-8.2,6.3h-1.2V24.2L11.3,24.2z M32.3,30.2c0-7.1-7-11.4-13.5-11.4H0v37.5h11.3
-            V38.1L20,56l0.1,0.3h12.8L24,40.5C29.2,39,32.3,35.1,32.3,30.2L32.3,30.2z" class="fillColor2"></path></g></svg>
+            V38.1L20,56l0.1,0.3h12.8L24,40.5C29.2,39,32.3,35.1,32.3,30.2L32.3,30.2z"
+              class="fillColor2"
+            ></path>
+          </g>
+        </svg>
 
-            <svg class="ml-2" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4023 5.21899C12.4023 2.88051 10.4828 1 8.07994 1C5.67702 1 3.76465 2.88051 3.76465 5.21899C3.76465 7.52973 5.68413 9.41023 8.08704 9.41023C10.49 9.41023 12.4023 7.52973 12.4023 5.21899Z" stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M1.14071 16.488C0.643067 17.6746 1.52461 19 2.85403 19H13.3117C14.6411 19 15.5226 17.6746 15.025 16.488C13.724 13.4626 11.1007 11.4155 8.0793 11.4155C5.04367 11.4155 2.41326 13.4626 1.14071 16.488Z" stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-
-
-     </div>
-
-
-
+        <svg
+          class="ml-2"
+          width="16"
+          height="20"
+          viewBox="0 0 16 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.4023 5.21899C12.4023 2.88051 10.4828 1 8.07994 1C5.67702 1 3.76465 2.88051 3.76465 5.21899C3.76465 7.52973 5.68413 9.41023 8.08704 9.41023C10.49 9.41023 12.4023 7.52973 12.4023 5.21899Z"
+            stroke="#484848"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            d="M1.14071 16.488C0.643067 17.6746 1.52461 19 2.85403 19H13.3117C14.6411 19 15.5226 17.6746 15.025 16.488C13.724 13.4626 11.1007 11.4155 8.0793 11.4155C5.04367 11.4155 2.41326 13.4626 1.14071 16.488Z"
+            stroke="#484848"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </div>
     </div>
+
+    <!-- Navigation-section -->
+
+    <div class="flex flex-row justify-around py-4 w-full">
+      <div>
+        <svg
+          version="1.1"
+          id="Rode_Logo"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 792.9 220.2"
+          xml:space="preserve"
+          style="height: 24px"
+        >
+          <g>
+            <path
+              d="M179.8,69.2c0-39.4-38.8-63.6-74.9-63.6H0v208.7h62.8V113.4l48.4,99.2l0.8,1.5h71.3l-49.8-87.8
+		C162.2,118.2,179.8,96.5,179.8,69.2z M62.8,35.8h18.4c20,0,34,14.2,34,34.4c0,29.2-16.7,35-45.7,35h-6.9V35.8H62.8z"
+            ></path>
+            <polygon
+              points="717,181.1 717,123.8 785.4,123.8 785.4,90.5 717,90.5 717,39 789,39 789,5.6 654.3,5.6 654.3,214.3 792.9,214.3 
+		792.9,181.1 	"
+            ></polygon>
+            <path
+              d="M525.4,5.6H433v208.7h101.9c62.5,0,102.8-39.4,102.8-100.5C637.4,51.1,590.3,5.6,525.4,5.6z M572.6,105.5
+		c0,38.8-15.4,80.1-58.8,80.1h-20.9V34.2h18.8C553.8,34.2,572.6,70,572.6,105.5z"
+            ></path>
+            <path
+              d="M410.8,19.6L393.3,2.1l-21.5,21.5C353,8.9,328.8,0,302.3,0C240,0,191.4,48.3,191.4,110c0,26.7,9.2,50.9,24.6,69.8
+		l-21.1,21.1l17.5,17.5l21.3-21.3c18.8,14.4,42.5,23.1,68.6,23.1c62.3,0,110.9-48.2,110.9-109.9c0-26.3-8.8-50.2-23.8-68.8
+		L410.8,19.6z M302.4,27.3c19.4,0,30.7,12.7,37.3,28.6l-81.5,81.5c-1.5-10.4-1.9-20.4-1.9-27.5C256.3,85.2,260.9,27.3,302.4,27.3z
+		 M346.6,83.8c1.3,10,1.7,19.2,1.7,26.1c0,24.8-4.4,82.6-46.1,82.6c-19,0-30.2-12.1-36.9-27.7L346.6,83.8z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+
+      <div>PRODUCTS</div>
+      <div>USER GUIDES</div>
+      <div>SOLUTIONS</div>
+      <div>APPAREL</div>
+      <div>SOLUTIONS</div>
+      <div>
+        <svg
+          data-v-bdd59cc4=""
+          width="27"
+          height="27"
+          viewBox="0 0 27 27"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.4629 20.0231C15.6892 20.0231 19.9259 15.7646 19.9259 10.5115C19.9259 5.25846 15.6892 1 10.4629 1C5.2367 1 1 5.25846 1 10.5115C1 15.7646 5.2367 20.0231 10.4629 20.0231Z"
+            stroke="#484848"
+            stroke-width="2"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M17.6455 17.6025L26.0002 26.0001"
+            stroke="#484848"
+            stroke-width="2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Rodex-land-section -->
+
+    <div
+      style="
+        background-image: url('https://edge.rode.com/images/page/1/modules/6816/RODEX_Launch-Website-Banners_1920x700_6.jpg');
+      "
+      class="bg-cover bg-center bg-no-repeat w-screen h-screen m-0 p-0 flex flex-col items-center justify-center   "
+    >
+
+   
+
+        <img
+        class=" w-1/2"
+        src=" https://edge.rode.com/images/page/1/modules/6816/RODEX_Launch-Website-Banners_TEXT_1920x700-02.svg"
+        alt=""
+      />
+      <button
+        class="m-4 p-2 pl-4 pr-4 text-red-600 bg-black rounded-3xl text-center font-bold text-xl hover:text-white"
+      >
+        Learn More
+      </button>
+
+      
+    </div>
+
+    <!-- Rodecaster-section -->
+
+    <div
+      style="
+        background-image: url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg');
+      "
+      class="bg-center  bg-cover bg-no-repeat  w-screen h-screen border-black border-2 m-0 p-0 "
+    >
+
+
+
+      <div class="flex flex-col items-center relative w-fit left-1/4 top-80 ml-28">
+        <img
+          class="w-1/2"
+          src="https://edge.rode.com/images/page/1/modules/5813/RODECasterProII_PL_PI_01.svg"
+          alt=""
+        />
+        <h1 class="font-bold text-white text-2xl mt-2">The Revolution Is Here</h1>
+        <p class="w-1/2 text-center text-gray-300 mt-2">
+          The RØDECaster Pro II is the world's most powerful all-in-one audio
+          solution for streamers, podcasters, musicians, and creators. Take your
+          content to the next level.
+        </p>
+
+        <div>
+          <a
+            class="after:content-['>'] after:text-2xl after:ml-1 text-white text-2xl"
+            href=""
+            >Learn More</a
+          >
+
+          <button
+            class=" m-2 pl-4 pr-4 text-red-600 bg-black rounded-3xl text-center font-bold text-xl hover:text-white"
+          >
+            BUY NOW
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NTH_100 section -->
+
+    <div
+    style="
+      background-image: url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg');
+    "
+    class="bg-center  bg-cover bg-no-repeat  w-screen h-screen border-black border-2 m-0 p-0 "
+  >
+
+
+
+    <div class="flex flex-col items-center relative  w-fit top-80 ">
+      <img
+        class="w-1/2"
+        src="https://edge.rode.com/images/page/1/modules/5873/NTH-100_PL_P_RGB_01.svg
+        "
+        alt=""
+      />
+      <h1 class="font-bold text-black text-2xl mt-10">Your Search For The Perfect Headphones Is Over</h1>
+      <p class="w-1/2 text-center text-gray-600 mt-10 text-xl">
+        Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.
+      </p>
+
+      <div class="mt-10">
+        <a
+          class="after:content-['>'] after:text-2xl after:ml-1 text-black text-2xl font-bold"
+          href=""
+          >Learn More</a
+        >
+
+        <button
+          class=" m-2 p-2 text-black pr-6 pl-6 bg-yellow-600 rounded-3xl text-center font-bold text-xl hover:text-white"
+        >
+          BUY NOW
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
   </body>
 </html>
